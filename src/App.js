@@ -55,6 +55,7 @@ let App = () => {
         setSelectedType={setSelectedType}
         setSearchValue={setSearchValue}
       />
+      
       <Content
         selected_type={selected_type}
         pokemon={pokemon}

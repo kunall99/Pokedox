@@ -6,8 +6,6 @@ let Header = (props) => {
         <div className="header">
             <Searchbar
                 setSearchValue={props.setSearchValue}
-                searchValue={props.searchValue}
-                setPokemonSearchName={props.setPokemonSearchName}
             />
 
             <Dropdown
